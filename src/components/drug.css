@@ -1,0 +1,198 @@
+/* Styles for Health Care Center Title
+body {
+   background-color: #28a745;
+} */
+
+:root {
+  background-color: #88d2e5;
+}
+.container-with-bg-image {
+  /* Add any other styles you want */
+  background-color: #88d2e5;
+  width: 100%;
+  padding-top: 1%;
+  height: 300px; /* Set the height as needed */
+  background-size: cover; /* Ensures the background image covers the entire container */
+  background-position: center; /* Centers the background image */
+}
+.healthcare-title {
+  margin-top: 0%;
+  border-color: #000000;
+  border-radius: 10%;
+  margin-bottom: 1%;
+  text-align: center;
+  color: #28a745; /* Green color */
+  font-size: 2rem; /* Increase font size for emphasis */
+}
+
+/* Styles for Form Container */
+.container {
+  margin-top: 2rem; /* Adjusted margin top for better spacing */
+  margin-bottom: 2rem; /* Adjusted margin bottom for better spacing */
+  background: #1d757e; /* Black background */
+  color: #fff; /* White text */
+  border-radius: 15px;
+  padding: 40px;
+}
+
+/* Styles for Form Inputs */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-control {
+  background-color: rgba(87, 228, 235, 0.858); /* Transparent white */
+  color: #fff;
+}
+
+.form-control:focus {
+  background-color: rgba(255, 255, 255, 0.3); /* Slightly opaque white on focus */
+}
+
+/* Styles for Submit Button */
+.btn-lg {
+  background-color: #378294; /* Red color */
+  border-color: #7fd4ed; /* Red border */
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 1rem; /* Adjusted margin bottom for better spacing */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Styles for Results Section */
+.result-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; /* Center the results section horizontally */
+}
+
+.result-card {
+  background-color: #88d2e5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(74, 215, 149, 0.808);
+  margin-bottom: 2rem; /* Adjusted margin bottom for better spacing */
+  width: calc(30% - 20px); /* Adjusted width to accommodate three cards with margin between them */
+  padding: 20px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+}
+
+.result-card h2 {
+  color: #759a3a;
+  font-size: 1.5rem; /* Reduced font size for better readability */
+  margin-bottom: 1rem; /* Adjusted margin bottom for better spacing */
+}
+
+.result-card h3 {
+  color: #555;
+  font-size: 1rem; /* Adjusted font size for better readability */
+  margin-bottom: 0.5rem; /* Adjusted margin bottom for better spacing */
+}
+
+.result-card ul {
+  padding-left: 20px;
+}
+
+.result-card li {
+  color: #777;
+  margin-bottom: 0.5rem; /* Adjusted margin bottom for better spacing */
+}
+
+/* Button Styles (Optional) */
+.button {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+.patient-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.patient-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.patient-details label {
+  font-weight: bold;
+  margin-right: 10px;
+  width: 80px; /* Adjust the width as needed */
+}
+
+.patient-details input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.pdf-download-link-container {
+  text-align: center;
+}
+
+.pdf-download-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.pdf-download-link {
+  background-color: #19e62a;
+  color: #fff; /* Change text color to white */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow */
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Add transition for smoother effect */
+}
+.pdf-download-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pdf-download-button:hover {
+  background-color: #0056b3;
+}
+
+
+.container{
+  position: relative;
+  transition: all;
+}
